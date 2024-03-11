@@ -1,0 +1,58 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Studio and IntelliJ IDEA
+# Ignore generated files and IDE-specific configurations
+.idea/
+build/
+captures/
+.externalNativeBuild/
+
+# Gradle
+# Ignore build outputs and Gradle-related files
+.gradle/
+*.apk
+*.class
+*.dex
+
+# Android resources
+# Ignore generated resources and temporary files
+*.gen
+*.out
+
+# Version control
+# Ignore version control system files
+.git/
+.svn/
+*.DS_Store
+
+# Keystore files
+# Exclude sensitive keystore files (modify the pattern if your files have different extensions)
+*.jks
+*.keystore
+
+# Logs
+# Ignore log files generated during development
+*.log
+
+# IDE-specific settings (optional)
+# Uncomment these lines if you want to ignore additional IDE-specific settings
+# Android Studio
+.idea/workspace.xml
+.idea/libraries
+
+# macOS
+# Ignore hidden files created by macOS
+.DS_Store
