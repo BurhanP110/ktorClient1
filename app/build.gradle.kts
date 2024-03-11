@@ -68,4 +68,15 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     implementation("io.coil-kt:coil-compose:2.4.0")
+
+    implementation ("io.ktor:ktor-client-core:1.6.7")
+    implementation ("io.ktor:ktor-client-android:1.6.7")
+    implementation ("io.ktor:ktor-client-logging:1.6.7")
+
+    implementation("io.ktor:ktor-client-core:1.6.7") // Use the latest version
+    implementation("io.ktor:ktor-client-cio:1.6.7") // Client I/O engine
+    implementation("io.ktor:ktor-client-serialization-jvm:1.6.7")
+    implementation ("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0" )// Use the latest version
+
+
 }

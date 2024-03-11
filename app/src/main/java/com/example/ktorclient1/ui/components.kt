@@ -94,3 +94,8 @@ fun imageCard(headlineString: String, SubLineString: String , imgUrl: String ){
 
 @Preview(showBackground = true)
 @Composable
+fun hello()
+{
+    imageCard(headlineString = "sas", SubLineString = "dsas", imgUrl = "")
+}
+
